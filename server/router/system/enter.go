@@ -20,6 +20,8 @@ type RouterGroup struct {
 	SysExportTemplateRouter
 	SysParamsRouter
 	SysVersionRouter
+	WebDetailRouter
+	WebCategoryRouter
 }
 
 var (
@@ -43,4 +45,6 @@ var (
 	autoCodeTemplateApi = api.ApiGroupApp.SystemApiGroup.AutoCodeTemplateApi
 	exportTemplateApi   = api.ApiGroupApp.SystemApiGroup.SysExportTemplateApi
 	sysVersionApi       = api.ApiGroupApp.SystemApiGroup.SysVersionApi
+	webDetailApi        = api.ApiGroupApp.SystemApiGroup.WebDetailApi
+	webCategoryApi      = api.ApiGroupApp.SystemApiGroup.WebCategoryApi
 )

@@ -22,4 +22,6 @@ type ServiceGroup struct {
 	AutoCodePackage  autoCodePackage
 	AutoCodeHistory  autoCodeHistory
 	AutoCodeTemplate autoCodeTemplate
+	WebDetailService
+	WebCategoryService
 }
